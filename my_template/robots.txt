@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /libs/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Sitemap: http://podbor-avtomobil.ru/sitemap.xml
+Host: lawwin.ru
+
+User-Agent: Googlebot
+Disallow: /libs/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/

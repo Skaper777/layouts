@@ -1,0 +1,7 @@
+ AddCharset utf-8 .php .htm .html 
+ ErrorDocument 404 /404.html
+ RewriteEngine On
+RewriteRule ^index.html$ / [QSA,R]
+
+
+
