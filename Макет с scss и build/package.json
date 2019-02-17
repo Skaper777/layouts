@@ -1,8 +1,8 @@
 {
-  "name": "vocenke",
+  "name": "Semenov",
   "version": "1.0.0",
   "private": true,
-  "description": "vocenke",
+  "description": "Semenov",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "8.3.x",
@@ -13,7 +13,7 @@
     "gulp-plumber": "1.2.x",
     "gulp-postcss": "7.0.x",
     "gulp-posthtml": "^3.0.4",
-    "gulp-sass": "4.0.x",
+    "gulp-sass": "^4.0.2",
     "gulp-svgstore": "^6.1.1",
     "gulp-uglify": "^3.0.0",
     "gulp-webp": "^3.0.0",
@@ -30,22 +30,19 @@
     "build": "gulp build",
     "start": "npm run build && gulp serve"
   },
-  "browserslist": {
+  "browserslist": [
     "last 2 versions",
     "IE 10",
     "Firefox ESR"
-  },
-  "editorconfig-cli": {
+  ],
+  "editorconfig-cli": [
     "*.json",
     "*.js",
     "source/*.html",
     "source/js/**/*.js",
     "source/img/**/*.svg",
     "source/sass/**/*.{sass,scss}"
-  },
-  "engines": {
-    "node": "8.11"
-  },
+  ],
   "dependencies": {
     "del": "^3.0.0",
     "gulp-htmlmin": "^4.0.0",
